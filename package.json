@@ -1,0 +1,37 @@
+{
+  "name": "echint-config-dev",
+  "version": "1.0.0",
+  "description": "A shareable configuration package for editorconfig",
+  "author": "Jonathan Neal <jonathantneal@hotmail.com>",
+  "license": "CC0-1.0",
+  "repository": "jonathantneal/echint-config-dev",
+  "homepage": "https://github.com/jonathantneal/echint-config-dev#readme",
+  "bugs": "https://github.com/jonathantneal/echint-config-dev/issues",
+  "main": ".editorconfig",
+  "files": [
+    ".editorconfig"
+  ],
+  "scripts": {
+    "prepublish": "npm test",
+    "test": "echint"
+  },
+  "devDependencies": {
+    "echint": "^2.0.0"
+  },
+  "keywords": [
+    "editorconfig",
+    "editor-config",
+    "eshint-config",
+    "eshintconfig",
+    "echint",
+    "config",
+    "lint",
+    "webdevelopment",
+    "web-development",
+    "webdev",
+    "web",
+    "dev",
+    "development"
+  ]
+}
+
